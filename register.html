@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register - Ignite 2025</title>
+</head>
+<body bgcolor="#0b0024" text="white">
+
+<center>
+  <h1><font color="#00ffff">IGNITE 2025 - Registration Form</font></h1>
+  <hr color="#ff00ff" size="3">
+</center>
+
+<!-- Navigation -->
+<center>
+  <table cellpadding="10">
+    <tr bgcolor="#220033">
+      <td><a href="index.html"><font color="#00ffff">Home</font></a></td>
+      <td><a href="about.html"><font color="#00ffff">About</font></a></td>
+      <td><a href="events.html"><font color="#00ffff">Events</font></a></td>
+      <td><a href="register.html"><font color="#00ffff">Register</font></a></td>
+      <td><a href="gallery.html"><font color="#00ffff">Gallery</font></a></td>
+      <td><a href="contact.html"><font color="#00ffff">Contact</font></a></td>
+    </tr>
+  </table>
+</center>
+
+<!-- Registration Form (linked to thankyou.html) -->
+<center>
+  <h2><font color="#ffcc00">Fill in your details to participate!</font></h2>
+
+  <form action="thankyou.html" method="get">
+    <table cellpadding="10" bgcolor="#220044" border="0">
+      <tr>
+        <td><font color="#00ffff">Full Name:</font></td>
+        <td><input type="text" name="fullname" required></td>
+      </tr>
+
+      <tr>
+        <td><font color="#00ffff">Email:</font></td>
+        <td><input type="email" name="email" required></td>
+      </tr>
+
+      <tr>
+        <td><font color="#00ffff">Academic Year:</font></td>
+        <td>
+          <select name="year" required>
+            <option value="">Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><font color="#00ffff">Choose Event:</font></td>
+        <td>
+          <select name="event" required>
+            <option value="">Select Event</option>
+            <option>Hackathon</option>
+            <option>Dance Battle</option>
+            <option>Art Fest</option>
+            <option>Music Show</option>
+            <option>Quiz Competition</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><font color="#00ffff">Comments (Optional):</font></td>
+        <td><textarea name="comments" rows="3" cols="25"></textarea></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Submit Registration">
+          <input type="reset" value="Clear">
+        </td>
+      </tr>
+    </table>
+  </form>
+</center>
+
+<hr color="#00ffff">
+<center><font color="#ff00ff">© 2025 Ignite College Fest | All Rights Reserved</font></center>
+</body>
+</html>
